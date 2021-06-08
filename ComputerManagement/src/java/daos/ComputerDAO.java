@@ -98,7 +98,7 @@ public class ComputerDAO implements Serializable {
 			preStm.setString(4, input.getRam());
 			preStm.setString(5, input.getVga());
 			preStm.setString(6, input.getMonitor());
-			preStm.setString(6, input.getRoom().getId());
+			preStm.setString(7, input.getRoom().getId());
 
 			check = preStm.executeUpdate() > 0;
 		} finally {
@@ -113,7 +113,7 @@ public class ComputerDAO implements Serializable {
 
 		ComputerDTO result = null;
 		try {
-			String sql = "SELECT ComputerID,CPU,HardDisk ,RAM ,VGA ,Monitor  ,RoomID FROM ComputerTBL";
+			String sql = "SELECT ComputerID,CPU,HardDisk ,RAM ,VGA ,Monitor  ,RoomID FROM ComputerTBL WHERE ComputerID=?";
 			DBContext db = new DBContext();
 			conn = db.getConnection();
 			preStm = conn.prepareStatement(sql);

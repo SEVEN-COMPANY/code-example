@@ -10,6 +10,8 @@
 	</head>
 	<body>
 		<h1>Computer Manager</h1>
+		<a href="CreateFormServlet">Add New</a>
+		<br/>
 		<table>
 			<thead>
 				<tr>
@@ -39,7 +41,8 @@
 					<td><%=it.getMonitor()%></td>
 					<td><%=it.getRoom().getName()%> - <%= it.getRoom().getBuilding()%></td>
 					<td>Edit</td>
-					<td>Delete</td>
+					<td>
+						<a href="DeleteServlet?pid=<%= it.getId()%>" onclick="return confirm('Allow Delete?')">Delete</a></td>
 				</tr>
 
 				<% }
@@ -48,5 +51,7 @@
 
 			</tbody>
 		</table>
+
+
 	</body>
 </html>

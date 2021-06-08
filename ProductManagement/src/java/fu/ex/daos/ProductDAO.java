@@ -17,7 +17,7 @@ import javax.naming.NamingException;
  */
 /**
  *
- * @author Lenovo
+ * @author 
  */
 public class ProductDAO {
 

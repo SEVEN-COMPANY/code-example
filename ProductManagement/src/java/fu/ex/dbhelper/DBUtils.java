@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Lenovo
+ * @author 
  */
 public class DBUtils {
 

@@ -1,7 +1,7 @@
 <%-- 
     Document   : productform.jsp
     Created on : Jun 9, 2021, 1:04:21 AM
-    Author     : Lenovo
+    Author     : 
 --%>
 
 <%@page import="fu.ex.entities.Product"%>

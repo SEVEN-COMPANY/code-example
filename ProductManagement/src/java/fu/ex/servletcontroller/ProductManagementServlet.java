@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Lenovo
+ * @author 
  */
 @WebServlet(name = "ProductManagementServlet", urlPatterns = {"/ProductManagementServlet"})
 public class ProductManagementServlet extends HttpServlet {

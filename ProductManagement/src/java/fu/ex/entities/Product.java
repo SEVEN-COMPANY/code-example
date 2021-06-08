@@ -7,7 +7,7 @@ package fu.ex.entities;
 
 /**
  *
- * @author Lenovo
+ * @author 
  */
 public class Product {
 

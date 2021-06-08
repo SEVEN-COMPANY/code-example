@@ -1,7 +1,7 @@
 <%-- 
     Document   : index.jsp
     Created on : Jun 9, 2021, 12:52:27 AM
-    Author     : Lenovo
+    Author     : 
 --%>
 
 <%@page import="fu.ex.entities.Product"%>

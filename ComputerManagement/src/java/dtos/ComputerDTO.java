@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package dtos;
 
-/**
- *
- * @author heaty566
- */
 public class ComputerDTO {
 
 	private String id, cpu, hardDisk, ram, vga, monitor;
@@ -28,7 +20,8 @@ public class ComputerDTO {
 
 	@Override
 	public String toString() {
-		return "ComputerDTO{" + "id=" + id + ", cpu=" + cpu + ", hardDisk=" + hardDisk + ", ram=" + ram + ", vga=" + vga + ", monitor=" + monitor + ", room=" + room + '}';
+		return "ComputerDTO{" + "id=" + id + ", cpu=" + cpu + ", hardDisk=" + hardDisk + ", ram=" + ram + ", vga=" + vga
+				+ ", monitor=" + monitor + ", room=" + room + '}';
 	}
 
 	public void setCpu(String cpu) {
